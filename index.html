@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Traffic Simulator</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- HERO SECTION -->
+  <div class="hero-section">
+    <!-- Floating Title -->
+    <div class="floating-title-wrapper">
+      <div class="floating-title">
+       SMART TRAFFIC SIMULATOR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       SMART TRAFFIC SIMULATOR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       SMART TRAFFIC SIMULATOR
+      </div>
+    </div>
+
+    <!-- Description -->
+    <div class="hero-description">
+      Static traffic lights slow our cities. It's time to make them smart — responsive, efficient, and energy-conscious. 
+    </div>
+  </div>
+
+  <!-- NEXT SECTION -->
+  <div class="next-section">
+    <h1>Welcome to Smart Traffic Simulator</h1>
+    <p>Let's get started by uploading your traffic intersection video down below &darr;</p>
+
+    <!-- Upload Video -->
+    <div class="upload-box" onclick="openFilePicker()">
+        Upload Video
+    </div>
+    <input
+      type="file"
+      id="videoInput"
+      accept="video/mp4"
+      style="display: none"
+    />
+
+    <!-- Detected Video & Traffic Results (Hidden by default) -->
+    <div id="results" style="display: none; margin-top: 40px; padding: 20px; background: #f5f5f5; border-radius: 10px;">
+      <h2 style="color: #333;">Detected Video:</h2>
+      <video id="detectedVideo" width="100%" style="max-width: 800px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" controls></video>
+
+      <h2 style="color: #333; margin-top: 30px;">Traffic Optimization Results:</h2>
+      <div id="trafficResults" style="background: white; padding: 15px; border-radius: 8px; margin-top: 10px;"></div>
+    </div>
+
+  </div>
+
+</body>
+</html>
