@@ -7,9 +7,9 @@ This project explores how computer vision and object detection can be applied to
 The core idea is to analyze traffic intersection videos, detect vehicles using YOLOv5, and derive insights that can help optimize traffic light timings.
 
 Rather than focusing on real-time video streaming in the browser, this project emphasizes:
--Understanding how YOLOv5 processes video frame by frame
-->Extracting detection logs from the terminal
--Using detected vehicle information to simulate traffic optimization logic
+- Understanding how YOLOv5 processes video frame by frame
+- Extracting detection logs from the terminal
+- Using detected vehicle information to simulate traffic optimization logic
 
 #**website**
 <img width="1919" height="1022" alt="image" src="https://github.com/user-attachments/assets/18200cb8-bebe-43ba-b81e-2f26de794dae" />
