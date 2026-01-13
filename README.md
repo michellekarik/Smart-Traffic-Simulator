@@ -8,7 +8,7 @@ The core idea is to analyze traffic intersection videos, detect vehicles using Y
 
 Rather than focusing on real-time video streaming in the browser, this project emphasizes:
 -Understanding how YOLOv5 processes video frame by frame
--Extracting detection logs from the terminal
+->Extracting detection logs from the terminal
 -Using detected vehicle information to simulate traffic optimization logic
 
 #**website**
